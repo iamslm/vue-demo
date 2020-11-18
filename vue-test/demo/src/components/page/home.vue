@@ -1,5 +1,7 @@
 <template>
-  <head-top title="home"></head-top>
+  <div>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
