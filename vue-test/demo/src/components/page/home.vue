@@ -1,8 +1,15 @@
 <template>
-  <head-top></head-top>
+  <head-top title="home"></head-top>
 </template>
 
 <script>
+import  headTop from './header/headTop.vue'
+
+export default {
+    components:{
+      headTop
+    }
+}
 </script>
 
 <style>
