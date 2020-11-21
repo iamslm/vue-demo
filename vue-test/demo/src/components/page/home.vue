@@ -1,11 +1,11 @@
 <template>
   <div>
-    <router-view></router-view>
+    <head-top title='home'></head-top>
   </div>
 </template>
 
 <script>
-import  headTop from './header/headTop.vue'
+import  headTop from '../header/headTop.vue'
 
 export default {
     components:{
